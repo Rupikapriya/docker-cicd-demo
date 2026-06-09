@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git brach:'main',
+                git branch:'main',
                 git 'https://github.com/Rupikapriya/docker-cicd-demo.git'
             }
         }
